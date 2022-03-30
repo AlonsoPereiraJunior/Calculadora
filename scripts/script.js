@@ -20,8 +20,9 @@ function calcular(n1, n2){
                 document.getElementById("resultado").innerHTML = `Insira um dívisivel válido!`
             } else {
             document.getElementById("resultado").innerHTML = `O resultado da divisão de ${n1} / ${n2} é = ${calculo}`
-            break
             }
+            break
+            
 
             case '*': 
             calculo = (n1 * n2)
